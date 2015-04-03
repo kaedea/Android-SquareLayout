@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#a5ed9e"
+    tools:context="me.kaede.brighter.MainActivity$PlaceholderFragment" >
+
+    <GridView
+        android:padding="10dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/yuanjiaokapian_bg"
+        android:id="@+id/grid_gaming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="4dp"
+        android:verticalSpacing="4dp"
+        android:numColumns="3" >
+    </GridView>
+
+</RelativeLayout>
